@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Current Java",
+      "type": "shell",
+      "command": "javac ${file} && java -cp ${fileDirname} ${fileBasenameNoExtension}",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Current Python",
+      "type": "shell",
+      "command": "python3 ${file}",
+      "problemMatcher": []
+    }
+  ]
+}
